@@ -2,6 +2,7 @@
   "extends": "@nuxt/typescript",
   "compilerOptions": {
     "baseUrl": ".",
+    "noImplicitAny": false,
     "outDir": "./dist",
     "types": [
       "@types/node",
