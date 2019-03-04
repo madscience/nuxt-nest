@@ -1,0 +1,22 @@
+# Build files
+dist
+
+# Node modules
+node_modules
+
+# Ignore Nuxt build files
+.nuxt
+
+# Environment files should be separate for each environment
+.env
+.env.*
+!*.example
+
+# When npm runs error it write logs to the below file
+npm-debug.log
+
+# IDE
+.idea
+
+# Operating System files
+.DS_Store
