@@ -1,8 +1,8 @@
 // @ts-ignore
-import NuxtConfiguration from '@nuxt/config'
+import NuxtConfiguration from '@nuxt/config';
 
 const config: NuxtConfiguration = {
-  plugins: ['~/plugins/hello']
-}
+  plugins: ['~/plugins/hello'],
+};
 
-export default config
+export default config;

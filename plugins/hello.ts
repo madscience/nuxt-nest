@@ -1,3 +1,3 @@
 export default () => {
-  console.log(`Hello from ${process.server ? 'Server' : 'Client'} !`)
-}
+  console.log(`Hello from ${process.server ? 'Server' : 'Client'} !`);
+};
