@@ -2,6 +2,7 @@
   "extends": "@nuxt/typescript",
   "compilerOptions": {
     "baseUrl": ".",
+    "outDir": "./dist",
     "types": [
       "@types/node",
       "@nuxt/vue-app"
