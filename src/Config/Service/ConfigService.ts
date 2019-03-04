@@ -14,6 +14,10 @@ export class ConfigService {
     this.envConfig = this.validateInput(config);
   }
 
+  public get(key: string): string {
+    return this.envConfig[key];
+  }
+
   private validateInput(envConfig: EnvConfig): EnvConfig {
     const envVarsSchema: Joi.ObjectSchema = Joi.object({
       NODE_ENV: Joi.string()
