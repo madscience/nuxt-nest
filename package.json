@@ -20,6 +20,20 @@
     "vue-property-decorator": "^7.3.0"
   },
   "devDependencies": {
+    "@nestjs/testing": "^5.7.3",
+    "@types/express": "^4.16.1",
+    "@types/jest": "^24.0.9",
+    "@types/node": "^11.10.4",
+    "@types/supertest": "^2.0.7",
+    "jest": "^24.1.0",
+    "nodemon": "^1.18.10",
+    "prettier": "^1.16.4",
+    "supertest": "^3.4.2",
+    "ts-jest": "^24.0.0",
+    "ts-loader": "^5.3.3",
+    "ts-node": "^8.0.2",
+    "tsconfig-paths": "^3.8.0",
+    "tslint": "^5.13.1",
     "tslint-config-standard": "^8.0.1"
   }
 }
