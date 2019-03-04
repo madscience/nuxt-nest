@@ -8,9 +8,7 @@ node_modules
 .nuxt
 
 # Environment files should be separate for each environment
-.env
-.env.*
-!*.example
+*.env
 
 # When npm runs error it write logs to the below file
 npm-debug.log
