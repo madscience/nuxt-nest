@@ -1,3 +1,3 @@
-# Nuxt with TypeScript example
+# Combining Nuxt.js with NestJs
 
-https://codesandbox.io/s/0qmykr7wq0
+It _almost_ works.
