@@ -5,6 +5,8 @@
     "noImplicitAny": false,
     "outDir": "./dist",
     "types": [
+      "@types/jest",
+      "@types/joi",
       "@types/node",
       "@nuxt/vue-app"
     ]
